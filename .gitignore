@@ -1,0 +1,55 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+.conda/
+
+# ---- Datasets (never commit raw images) ----
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+/root/fiftyone/
+.fiftyone/
+
+# ---- Model checkpoints / weights ----
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# ---- Logs, metrics, generated outputs ----
+runs/
+logs/
+wandb/
+outputs/
+results/*.png
+results/*.jpg
+!results/sample_*.png
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---- Colab / environment ----
+.env
+*.log
